@@ -1,4 +1,8 @@
 #!/bin/bash
+echo "Vou buscar os dados do sistema. Posso continuar? [s/n] "
+read RESPOSTA
+test "$RESPOSTA" = "n" && exit
+
 echo "Data e Horário:"
 date
 echo
@@ -7,3 +11,61 @@ df
 echo
 echo "Usuários conectados:"
 w
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
